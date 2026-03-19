@@ -3,9 +3,13 @@ package src;
 public class Triangulo {
 
     protected double base;
+
     protected double altura;
+
     protected double lado1;
+
     protected double lado2;
+
     protected double lado3;
 
     protected Triangulo(double base, double altura, double l1, double l2, double l3) {
