@@ -2,13 +2,13 @@ package src;
 
 public class Triangulo {
 
-    public double base;
-    public double altura;
-    public double lado1;
-    public double lado2;
-    public double lado3;
+    protected double base;
+    protected double altura;
+    protected double lado1;
+    protected double lado2;
+    protected double lado3;
 
-    public Triangulo(double base, double altura, double l1, double l2, double l3) {
+    protected Triangulo(double base, double altura, double l1, double l2, double l3) {
         this.base = base;
         this.altura = altura;
         this.lado1 = l1;
@@ -16,15 +16,15 @@ public class Triangulo {
         this.lado3 = l3;
     }
 
-    public double calcularArea() {
+    protected double calcularArea() {
         return (base * altura) / 2;
     }
 
-    public double calcularPerimetro() {
+    protected double calcularPerimetro() {
         return lado1 + lado2 + lado3;
     }
 
-    public void dibujar() {
+    protected void dibujar() {
         System.out.println("Dibujando triangulo");
     }
 }

@@ -2,23 +2,23 @@ package src;
 
 public class Rectangulo {
 
-    public double ancho;
-    public double alto;
+    protected double ancho;
+    protected double alto;
 
-    public Rectangulo(double ancho, double alto) {
+    protected Rectangulo(double ancho, double alto) {
         this.ancho = ancho;
         this.alto = alto;
     }
 
-    public double calcularArea() {
+    protected double calcularArea() {
         return ancho * alto;
     }
 
-    public double calcularPerimetro() {
+    protected double calcularPerimetro() {
         return 2 * ancho + 2 * alto;
     }
 
-    public void dibujar() {
+    protected void dibujar() {
         System.out.println("Dibujando rectangulo " + ancho + "x" + alto);
     }
 }

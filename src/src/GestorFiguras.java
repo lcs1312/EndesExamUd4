@@ -4,17 +4,17 @@ import java.util.ArrayList;
 
 public class GestorFiguras {
 
-    public ArrayList<Object> figuras;
+    protected ArrayList<Object> figuras;
 
-    public GestorFiguras() {
+    protected GestorFiguras() {
         figuras = new ArrayList<>();
     }
 
-    public void agregarFigura(Object f) {
+    protected void agregarFigura(Object f) {
         figuras.add(f);
     }
 
-    public void mostrarAreas() {
+    protected void mostrarAreas() {
 
         for (Object f : figuras) {
 
@@ -36,7 +36,7 @@ public class GestorFiguras {
         }
     }
 
-    public void mostrarPerimetros() {
+    protected void mostrarPerimetros() {
 
         for (Object f : figuras) {
 
@@ -57,7 +57,7 @@ public class GestorFiguras {
         }
     }
 
-    public void dibujarTodo() {
+    protected void dibujarTodo() {
 
         for (Object f : figuras) {
 
