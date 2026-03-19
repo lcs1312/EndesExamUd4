@@ -17,11 +17,15 @@ public class Triangulo {
     }
 
     public double calcularArea() {
+
         return (base * altura) / 2;
+
     }
 
     public double calcularPerimetro() {
+
         return lado1 + lado2 + lado3;
+
     }
 
     public void dibujar() {
