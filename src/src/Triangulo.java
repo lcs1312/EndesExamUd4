@@ -14,10 +14,15 @@ public class Triangulo {
 
     protected Triangulo(double base, double altura, double l1, double l2, double l3) {
         this.base = base;
+
         this.altura = altura;
+
         this.lado1 = l1;
+
         this.lado2 = l2;
+
         this.lado3 = l3;
+
     }
 
     protected double calcularArea() {
