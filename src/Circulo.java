@@ -1,4 +1,4 @@
-public class Circulo {
+public class Circulo extends Figura {
 
     private double radio;
 
@@ -20,5 +20,10 @@ public class Circulo {
 
     public double getRadio() {
         return radio;
+    }
+
+    @Override
+    public void saludar() {
+        System.out.println("Un saludo de parte del círculo");
     }
 }

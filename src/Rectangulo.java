@@ -1,4 +1,4 @@
-public class Rectangulo {
+public class Rectangulo extends Figura {
 
     private double ancho;
     private double alto;
@@ -26,5 +26,10 @@ public class Rectangulo {
 
     public double getAlto() {
         return alto;
+    }
+
+    @Override
+    public void saludar() {
+        System.out.println("Un saludo de parte del rectángulo");
     }
 }

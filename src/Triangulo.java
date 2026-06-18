@@ -1,4 +1,4 @@
-public class Triangulo {
+public class Triangulo extends Figura {
 
     private double base;
     private double altura;
@@ -44,5 +44,10 @@ public class Triangulo {
 
     public double getLado3() {
         return lado3;
+    }
+
+    @Override
+    public void saludar() {
+        System.out.println("Un saludo de parte del triángulo");
     }
 }
