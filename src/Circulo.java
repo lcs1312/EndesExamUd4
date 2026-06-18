@@ -1,6 +1,6 @@
 public class Circulo {
 
-    public double radio;
+    private double radio;
 
     public Circulo(double radio) {
         this.radio = radio;
@@ -16,5 +16,9 @@ public class Circulo {
 
     public void dibujar() {
         System.out.println("Dibujando circulo de radio " + radio);
+    }
+
+    public double getRadio() {
+        return radio;
     }
 }

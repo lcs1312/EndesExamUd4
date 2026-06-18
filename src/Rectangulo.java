@@ -1,7 +1,7 @@
 public class Rectangulo {
 
-    public double ancho;
-    public double alto;
+    private double ancho;
+    private double alto;
 
     public Rectangulo(double ancho, double alto) {
         this.ancho = ancho;
@@ -18,5 +18,13 @@ public class Rectangulo {
 
     public void dibujar() {
         System.out.println("Dibujando rectangulo " + ancho + "x" + alto);
+    }
+
+    public double getAncho() {
+        return ancho;
+    }
+
+    public double getAlto() {
+        return alto;
     }
 }
