@@ -6,7 +6,7 @@ import model.Triangulo;
 import services.GestorFiguras;
 
 public class Main {
-
+//Ramas fusionadas
     public static void main(String[] args) {
 
         GestorFiguras gestor = new GestorFiguras();
