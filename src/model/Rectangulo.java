@@ -1,3 +1,5 @@
+package model;
+
 public class Rectangulo extends Figura {
 
     private double ancho;
